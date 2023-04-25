@@ -21,7 +21,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="nav nav-pills">
+                <div class="navbar-nav">
                     <a class="nav-link text-white" href="#home">Home</a>
                     <a class="nav-link text-white" href="#about">About</a>
                     <a class="nav-link text-white" href="#skills">Skills</a>
@@ -73,7 +73,9 @@
                         <p>Saya adalah lulusan SMK Negeri 1 Cianjur, jurusan Teknik Komputer dan Jaringan (TKJ) yang telah terlatih untuk berbagai pekerjaan terkait teknologi. Terutama dalam bidang pengembangan web dan juga administrasi jaringan.</p>
                         <div class="about-btns mt-5 d-flex">
                             <button type="button" class="btn btn-warning mx-2">More ...</button>
-                            <button type="button" class="btn btn-outline-warning mx-2">Get Resume <i class='bx bx-cloud-download'></i></button>
+                            <a href="https://drive.google.com/drive/u/1/folders/1NpHojzFoqFm9eqaXWTGgg2up1tq1Je0C">
+                                <button type="button" class="btn btn-outline-warning mx-2">Get Resume <i class='bx bx-cloud-download'></i></button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -88,11 +90,18 @@
                     <h1 class="display-6 fw-bold text-white mt-sm-3 text-center border-bottom w-lg-25 w-md-25 w-50 border-2 border-warning p-2">My Skills</h1>
                 </div>
                 <div class="row pb-5 pt-3 align-items-center">
-                    <div class="col-md-6 col-lg-6 text-light " id="mySkills">
+                    <div class="col-md-6 col-lg-6 text-light ">
                         <div class="d-flex justify-content-center">
-                            <h3 id="hSkillTitle" class="text-warning">Hard Skills</h3>
+                            <h3 id="hSkillsTitle" class="text-warning">Hard Skills</h3>
                         </div>
-                        <!-- Data will be gotten from file skills.json -->
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb bg-dark" id="hardSkilBreadcrumb">
+                              <li class="breadcrumb-item active" data-item="all">All Skills</li>
+                            </ol>
+                        </nav>
+                        <div id="mySkills">
+                            <!-- Data will be gotten from file skills.json -->
+                        </div>
                     </div>
                     <div class="col-md-6 col-lg-6 text-white d-flex flex-column align-items-center my-md-0 my-lg-0 my-5">
                         <div class="d-flex justify-content-center">

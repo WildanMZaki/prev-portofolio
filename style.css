@@ -1,0 +1,14 @@
+.bgDblue {background-color: #317ac7;}
+.textDblue {color: #317ac7;}
+.bgLblue {background-color: #7cf6fd;}
+.textLblue {color: #7cf6fd;}
+.bgGray {background-color: #707d9d;}
+.textGray {color: #707d9d;}
+.bgGunmetal {background-color: #2f2b3d;}
+.textGunmetal {color: #2f2b3d;}
+
+#imgAbout {
+    position: relative;
+    top: 16px;
+    left: 16px;
+}
